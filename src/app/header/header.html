@@ -1,1 +1,14 @@
-<p>header works!</p>
+<header>
+  <div class="logo">
+    <a routerLink="/"><img src="logo.png" alt="Logo du site" /></a>
+  </div>
+
+  <nav [class.open]="menuOpen">
+    <a routerLink="/about">À propos</a>
+    <a routerLink="/contact">Contact</a>
+  </nav>
+
+  <button class="burger" (click)="toggleMenu()">
+    &#9776;
+  </button>
+</header>
