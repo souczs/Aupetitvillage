@@ -1,0 +1,62 @@
+header {
+  background-color: #FDD90B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'Bubbleboddy Neue', sans-serif;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  padding-right:50px;
+}
+
+.logo a img {
+  width: 115px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+}
+
+nav a:hover {
+  font-size: 1.8rem;
+}
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #FDD90B;
+    flex-direction: column;
+    padding: 10px;
+    display: none;
+  }
+
+  nav.open {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+}
