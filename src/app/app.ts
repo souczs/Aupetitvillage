@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from './header/header';
-import { Footer } from './footer/footer';
+import { Header } from './components/header/header';
+import { Footer } from './components/footer/footer';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,5 @@ import { Footer } from './footer/footer';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'petitvillage';
+  protected title = 'Au petit village';
 }

@@ -1,0 +1,29 @@
+<main>
+    <h1 class="welcome">! Bienvenue au petit village !</h1>
+    <p class="presentation">
+        Au Petit Village est une jeune entreprise artisanale qui se lance dans la vente de figurines faites main, inspirées
+        de l’univers mythique d’Astérix & Obélix.<br>
+        Chaque pièce est unique, conçue avec passion et souci du détail, pour ravir les amateurs de bande dessinée et de
+        culture gauloise.<br>
+        L’entreprise mise sur l’authenticité, la créativité et le savoir-faire local pour proposer des produits originaux, à
+        la croisée de l’art et de la nostalgie.
+    </p>
+
+    <h2 class="product">Nos figurines personnalisées</h2>
+
+    <div class="product_pipes">
+        <input type="text" [(ngModel)]="searchTerm" placeholder="Rechercher..." />
+        <select [(ngModel)]="sortOrder">
+            <option value="asc">Prix croissant</option>
+            <option value="desc">Prix décroissant</option>
+        </select>
+    </div>
+
+    <div *ngFor="let product of products | filterByName:searchTerm | sortByPrice:sortOrder"class="product_card">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+        <p>Prix : {{ product.price | currency:'EUR':'symbol':'1.2-2' }}</p>
+        <img [src]="product.image" alt="{{ product.name }}" width="150" /><br>
+        <button>Voir le produit</button>
+    </div>
+</main>

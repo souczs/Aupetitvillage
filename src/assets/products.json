@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Astérix le Gaulois",
+    "price": 29.99,
+    "image": "assets/img/asterix.jpg",
+    "description": "Figurine fidèle du héros courageux et rusé de la bande dessinée."
+  },
+  {
+    "id": 2,
+    "name": "Obélix avec Menhir",
+    "price": 34.99,
+    "image": "assets/img/obelix.jpeg",
+    "description": "Obélix portant son fameux menhir, toujours prêt pour l’aventure."
+  },
+  {
+    "id": 3,
+    "name": "Idéfix le chien",
+    "price": 14.99,
+    "image": "assets/img/idefix.jpg",
+    "description": "Le fidèle compagnon d’Obélix, petit mais courageux."
+  },
+  {
+    "id": 4,
+    "name": "Panoramix le druide",
+    "price": 24.99,
+    "image": "assets/img/panoramix.webp",
+    "description": "Le druide sage qui prépare la fameuse potion magique."
+  },
+  {
+    "id": 5,
+    "name": "César l'Empereur",
+    "price": 39.99,
+    "image": "assets/img/cesar.jpg",
+    "description": "L’ennemi juré des irréductibles Gaulois."
+  }
+]
