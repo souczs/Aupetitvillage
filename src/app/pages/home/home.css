@@ -18,6 +18,7 @@ main {
 
 .product_pipes {
     display:flex;
+    flex-wrap:wrap;
     justify-content:center;
     gap:20px;
 }
@@ -35,6 +36,11 @@ main {
     background-color: #f9f9f9;
     border-radius: 12px;
     padding:7px;
+}
+
+.product_card button a {
+    text-decoration:none;
+    color:black;
 }
 
 .product_card button:hover {
