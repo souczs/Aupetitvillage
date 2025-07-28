@@ -1,0 +1,43 @@
+main {
+    text-align:center;
+    padding:20px;
+}
+
+.welcome {
+    padding-top:20px;
+}
+
+.presentation {
+    line-height:2;
+}
+
+.product {
+    padding-top:20px;
+    color:#DA001E;
+}
+
+.product_pipes {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.product_card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin: 15px;
+    padding:20px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.product_card button {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding:7px;
+}
+
+.product_card button:hover {
+    background-color: #DA001E;
+    color:white;
+}

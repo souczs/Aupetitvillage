@@ -18,7 +18,7 @@ h1, h2, h3, .title {
   font-family: 'Bubbleboddy Neue', cursive, sans-serif;
 }
 
-body, p, span, .text {
+body, p, span, .text, input, select, option, button {
   font-family: 'Comfortaa', cursive, sans-serif;
 }
 

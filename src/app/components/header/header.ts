@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { About } from "../about/about";
 
 @Component({
   selector: 'app-header',
-  imports: [RouterModule, About],
+  imports: [RouterModule],
   templateUrl: './header.html',
-  styleUrl: './header.css'
+  styleUrls: ['./header.css']
 })
 export class Header {
   menuOpen = false;

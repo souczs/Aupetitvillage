@@ -6,6 +6,7 @@ header {
   padding: 10px 20px;
   text-transform: uppercase;
   font-family: 'Bubbleboddy Neue', sans-serif;
+  border-bottom:solid black;
 }
 
 .logo a {
