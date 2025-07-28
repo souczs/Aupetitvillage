@@ -26,6 +26,7 @@ export class Home implements OnInit {
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe(data => {
+      console.log('Produits reçus:', data);
       this.products = data;
       this.cdr.detectChanges();
     });
