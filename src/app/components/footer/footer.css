@@ -1,3 +1,28 @@
 footer {
-    position:absolute;
+    background-color: #DA001E;
+    color: black;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: 'Bubbleboddy Neue', sans-serif;
+    border-top:solid black;
+}
+
+.footer_content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer_social {
+  margin-top: 10px;
+}
+
+.footer_social a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer_social img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
 }
